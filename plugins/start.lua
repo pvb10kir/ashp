@@ -32,10 +32,13 @@ local function do_keyboard_private()
     local keyboard = {}
     keyboard.inline_keyboard = {
     {
-	        {text = '🔥برای پیام رسانی کلیک کنید🔮', callback_data = '/chat'},
+	        {text = '🍍ارتباط با ادمین🍍', callback_data = '/chat'},
         },
   {
-	        {text = '🔥شماره بنده🔮', callback_data = '!share'},
+	        {text = '🌭🍔 کانال آشپزخونه', url = 'https://t.me/ashpazz_khoneh'},
+        },
+{
+	        {text = '🍓🍕 گروه آشپزخونه', url = 'https://t.me/joinchat/BzJ25z9BR2qlPzWhw5vISg'},
         },
 -- {
 --	        {text = '🔥ساعت و تاریخ🔮', callback_data = '!date'},
