@@ -82,7 +82,7 @@ local action = function(msg, blocks, ln)
         db:hset('bot:users', msg.from.id, 'xx')
         db:hincrby('bot:general', 'users', 1)
         if msg.chat.type == 'private' then
-            local message = [[📍برای پیام رسانی اینجا بزنید👇]]
+            local message = [[سلام، از طریق این ربات میتوانید با ادمین کانال و گروه آشپزخونه ارتباط داشته باشید.😉😘]]
             local keyboard = do_keyboard_private()
             api.sendKeyboard(msg.from.id, message, keyboard, true)
             end
